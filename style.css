@@ -1,5 +1,41 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: auto;
+}
+
+/* Center text */
+header {
+  text-align: center;
+}
+
+/* Padding of 10px on left and right side, and background color gray */
+nav > a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: gray;
+}
+
+/* Center text */
+figure {
+  text-align: center;
+}
+
+/* Center and a hard width of 800px */
+section#featured-property p {
+  width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* #details section horizontal and float left*/
+section#details div {
+  float: left;
+}
+
+/* same background color, centered text, and occupy 25% width of the bottom row */
+div {
+  background-color: red;
+  text-align: center;
+  width: 25%;
 }
